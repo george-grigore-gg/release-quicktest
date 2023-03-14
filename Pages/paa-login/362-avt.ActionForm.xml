@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.24.15.00">
+<module type="ActionForm" version="05.25.20.00">
     <contentKey />
     <moduleID>362</moduleID>
     <alignment />
@@ -26,14 +26,14 @@
     </modulepermissions>
     <title>Login Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>e47498cb-00a7-488f-a784-9962a08481f1</uniqueId>
+    <uniqueId>ac528581-9fb7-4abe-b7ea-a88f4382bb8b</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.24.15.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.25.20.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[10]]&gt;&lt;/Id&gt;
@@ -333,8 +333,8 @@
   &lt;Settings&gt;
     &lt;Title&gt;Login Form&lt;/Title&gt;
     &lt;CssName&gt;login-form&lt;/CssName&gt;
-    &lt;Version&gt;5.24.0&lt;/Version&gt;
-    &lt;Build&gt;5.24.15&lt;/Build&gt;
+    &lt;Version&gt;5.25.0&lt;/Version&gt;
+    &lt;Build&gt;5.25.20&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -353,7 +353,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;362&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.24.15&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.25.20&lt;/ModuleVersion&gt;
     &lt;TabId&gt;29&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -394,7 +394,7 @@
       &lt;ActionType&gt;UserLogin&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.303&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:29.24&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;UsernameField&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Username&quot;},&quot;PasswordField&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Password&quot;},&quot;TryEmailAsUsername&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -409,7 +409,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![HasRole:Administrators] &amp;amp;&amp;amp; [Url:Relative].Contains(&quot;/pap-login&quot;)&lt;/Condition&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/login?returnurl=[QueryString:returnurl]&quot;,&quot;EscapeUrl&quot;:true,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -421,7 +421,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/forgot-password&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -434,7 +434,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/registration&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -449,7 +449,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Condition&gt;[User:UserId] &amp;gt; 0 &amp;amp;&amp;amp; ![HasRole:Administrators] &amp;amp;&amp;amp; ![HasRole:Low-Code Engineer] &amp;amp;&amp;amp; ![HasRole:Citizen Developers] &amp;amp;&amp;amp; [QueryString:returnurl] == &quot;&quot;&lt;/Condition&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/&quot;,&quot;EscapeUrl&quot;:true,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -462,7 +462,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Condition&gt;[QueryString:returnurl] == &quot;&quot;&lt;/Condition&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -477,7 +477,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition&gt;[User:UserId] &amp;gt; 0 &amp;amp;&amp;amp; ![HasRole:Administrators] &amp;amp;&amp;amp; [QueryString:returnurl] != &quot;&quot;&lt;/Condition&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;[QueryString:returnurl]&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;
@@ -491,7 +491,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition&gt;[QueryString:returnurl] != &quot;&quot;&lt;/Condition&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.35&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:30.63&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;[QueryString:returnurl]&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;362&lt;/ModuleId&gt;

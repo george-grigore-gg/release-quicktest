@@ -1,10 +1,9 @@
 {
   "id": 2,
-  "globalId": "26a2aba7-824b-4257-a7e9-99e5581e65d0",
+  "globalId": "82ebbd5f-121e-4a7f-8b12-aea331149a87",
   "namespace": {
     "id": 1,
-    "globalId": "4920018e-9d0a-4d2e-854e-0ece5380c948",
-    "portalId": 0,
+    "globalId": "28faa594-b404-4789-8de1-6f26819476d3",
     "name": "PAASysUpdates",
     "description": "",
     "isSystem": true

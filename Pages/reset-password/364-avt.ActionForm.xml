@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.24.15.00">
+<module type="ActionForm" version="05.25.20.00">
     <contentKey />
     <moduleID>364</moduleID>
     <alignment />
@@ -26,14 +26,14 @@
     </modulepermissions>
     <title>Reset Password</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>53701263-fddc-4af3-8251-a7f88c19a5a0</uniqueId>
+    <uniqueId>3a53e963-2231-40b7-9edc-518944675f63</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.24.15.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.25.20.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[15]]&gt;&lt;/Id&gt;
@@ -263,8 +263,8 @@
   &lt;Settings&gt;
     &lt;Title&gt;Reset Password&lt;/Title&gt;
     &lt;CssName&gt;reset-password&lt;/CssName&gt;
-    &lt;Version&gt;5.24.0&lt;/Version&gt;
-    &lt;Build&gt;5.24.15&lt;/Build&gt;
+    &lt;Version&gt;5.25.0&lt;/Version&gt;
+    &lt;Build&gt;5.25.20&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -283,7 +283,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;364&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.24.15&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.25.20&lt;/ModuleVersion&gt;
     &lt;TabId&gt;30&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -322,7 +322,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ValidateResetPasswordToken&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.837&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:31.013&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{}&lt;/ActionData&gt;
       &lt;ModuleId&gt;364&lt;/ModuleId&gt;
@@ -334,7 +334,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ResetPassword&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.9&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:32.383&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;NewPassword&quot;:&quot;[NewPassword]&quot;,&quot;RepeatPassword&quot;:&quot;[RepeatPassword]&quot;,&quot;Username&quot;:&quot;[Username]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;364&lt;/ModuleId&gt;
@@ -347,7 +347,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2023-03-07T13:59:27.9&lt;/LastModified&gt;
+      &lt;LastModified&gt;2023-03-10T09:55:32.383&lt;/LastModified&gt;
       &lt;LastModifiedBy xsi:nil=&quot;true&quot; /&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/login&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;364&lt;/ModuleId&gt;

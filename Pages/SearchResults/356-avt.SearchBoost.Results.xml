@@ -1,4 +1,4 @@
-<module type="avtSearchBoostResults" version="05.24.01.00">
+<module type="avtSearchBoostResults" version="05.25.09.00">
     <contentKey />
     <moduleID>356</moduleID>
     <alignment />
@@ -26,7 +26,7 @@
     </modulepermissions>
     <title>avt.SearchBoost.Results</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>91a9369d-a55b-4710-93f5-fb1d6177dd15</uniqueId>
+    <uniqueId>a090f218-5a67-4048-b275-199925ea423c</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings>

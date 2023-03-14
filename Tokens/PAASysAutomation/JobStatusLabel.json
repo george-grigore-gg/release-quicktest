@@ -1,10 +1,9 @@
 {
   "id": 19,
-  "globalId": "256a4b34-38d3-4736-a3dc-99bb6eed3d95",
+  "globalId": "0e3de7fb-99a2-49bd-8e48-170ca2992833",
   "namespace": {
     "id": 2,
-    "globalId": "52ce8f05-5e3a-44e1-8b6d-09d71dddbca4",
-    "portalId": 0,
+    "globalId": "3cf600f0-9471-4054-86bc-5cab9970cff2",
     "name": "PAASysAutomation",
     "description": "",
     "isSystem": true
