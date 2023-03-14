@@ -1,0 +1,91 @@
+{
+  "Name": "Main",
+  "Description": "Creates a new record of type Main",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 1,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Input": [
+    {
+      "Name": "name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"name is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
+        }
+      ]
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.CreateEntity.e6fece96-c179-45c8-ba54-843e370c4f1e",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "CreatedRecordId",
+        "name": "[name]"
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.CreateEntity",
+        "EntityIdentifier": "e6fece96-c179-45c8-ba54-843e370c4f1e",
+        "IsUidEnabled": "True"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ReadEntity.e6fece96-c179-45c8-ba54-843e370c4f1e",
+      "OrderIndex": 1,
+      "Parameters": {
+        "RecordId": "[CreatedRecordId]",
+        "OutputToken": "CreatedRecord"
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "e6fece96-c179-45c8-ba54-843e370c4f1e",
+        "IsUidEnabled": "True"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 2,
+      "Parameters": {
+        "HttpCode": "201 Created",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "name",
+            "value": "[CreatedRecord:name]"
+          }
+        ],
+        "Headers": [
+          {
+            "name": "Location",
+            "value": "http://release125-meouat1.apps.plantanapp.com/api/Main?recordId=[CreatedRecordId]"
+          }
+        ]
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
